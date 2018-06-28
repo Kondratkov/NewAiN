@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewAiN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    //nav_menu
+    <string name="nav_my_questions">Мои вопросы</string>
+    <string name="nav_my_orders">Мои заказы</string>
+    <string name="nav_help">Помощь</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_about_us">О нас</string>
+
+</resources>
