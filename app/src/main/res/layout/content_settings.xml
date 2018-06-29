@@ -8,4 +8,41 @@
     tools:context=".SettingsActivity"
     tools:showIn="@layout/activity_settings">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"
+        android:divider="@drawable/separator"
+        android:dividerPadding="3dp"
+        android:showDividers="middle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView_setting_push"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/settings_push"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_setting_size_text"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/settings_size_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
