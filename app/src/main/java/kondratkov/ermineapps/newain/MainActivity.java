@@ -1,5 +1,6 @@
 package kondratkov.ermineapps.newain;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -65,7 +66,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_help) {
 
         } else if (id == R.id.nav_settings) {
-
+            //Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+            //startActivity(intent);
         } else if (id == R.id.nav_about_us) {
 
         }
